@@ -29,4 +29,4 @@ for comm in commodity_list:
                 f.write(down_res.content)
             time.sleep(10)
         else:
-            print('No results,so can\'t create the filesymotion-lineforward!')
+            print(f'No results,the {comm} in {dateFrom}-{dateTo} no data!')
